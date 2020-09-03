@@ -1,9 +1,9 @@
 ---
 title: "S2_1 Time Series"
 output:
-  html_notebook: default
-  word_document: default
   pdf_document: default
+  word_document: default
+  html_notebook: default
 ---
 
 ## Carga de librerias
