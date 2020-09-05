@@ -1,9 +1,11 @@
 ---
 title: "S2_1 Time Series"
 output:
-  pdf_document: default
-  word_document: default
   html_notebook: default
+  word_document: default
+  html_document:
+    df_print: paged
+  pdf_document: default
 ---
 
 ## Carga de librerias
@@ -21,7 +23,7 @@ library(TTR)
 
 ```{r Carga de datos}
 #Carga de datos
-Yt <- read.delim("./datatesisaereo.txt", header=T)
+Yt <- read.delim("./datasets/datatesisaereo.txt", header=T)
 #ts para convertir a serie de tiempo
 Yt <- ts(Yt, start = c(2000, 1), freq = 12 )
 ```

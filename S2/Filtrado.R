@@ -1,6 +1,6 @@
 getwd()
 setwd('C:/Users/Aron/Desktop/Analitica/S2')
-Data_wolfe <- read.csv(file="wolf_hormone_data_for_dryad.csv", header=TRUE, sep=",")
+Data_wolfe <- read.csv(file="./datasets/wolf_hormone_data_for_dryad.csv", header=TRUE, sep=",")
 Data_wolfe.data <- data.frame(Data_wolfe)
 head(Data_wolfe.data)
 dim(Data_wolfe.data)
