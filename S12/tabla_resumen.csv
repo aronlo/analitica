@@ -1,0 +1,11 @@
+"","name","type","na","mean","disp","median","mad","min","max","nlevs"
+"1","Age","integer",0,35.546,11.3754685743175,33,10.3782,19,75,0
+"2","Sex","factor",0,NA,0.31,NA,NA,310,690,2
+"3","Job","integer",1,1.9049049049049,0.653314323412795,2,0,0,3,0
+"4","Housing","factor",0,NA,0.287,NA,NA,108,713,3
+"5","Saving_accounts","factor",182,NA,NA,NA,NA,1,603,5
+"6","Checking_account","factor",394,NA,NA,NA,NA,63,274,3
+"7","Credit_amount","integer",0,3271.258,2822.73687596044,2319.5,1627.1535,250,18424,0
+"8","Duration","integer",0,20.903,12.0588144527564,18,8.8956,4,72,0
+"9","Purpose","factor",0,NA,0.663,NA,NA,12,337,8
+"10","Risk","factor",0,NA,0.3,NA,NA,300,700,2
